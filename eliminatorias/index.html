@@ -707,7 +707,82 @@ body {
     </div>
 
     <div id="premosList" style="display: flex; flex-direction: column; gap: 12px;">
-      <!-- Generado por JS -->
+      <!-- 5 Tiers de Premios -->
+
+      <!-- Tier 1: Moto G05 (0-80) -->
+      <div id="tier0" style="border: 2px solid #4CAF50; border-radius: 12px; padding: 12px; background: rgba(76, 175, 80, 0.08); transition: all 0.3s;">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <img src="https://images.motorola.com/webapi/v1/img?src=http://cdn.cmsimg.motorola.com/content/dam/moto/simple-page/moto-g05-go/moto_g05_go_product_4.png" alt="Moto G05" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0; background: #f5f5f5; border-radius: 8px; padding: 4px;">
+          <div style="flex: 1;">
+            <div style="font-weight: 600; font-size: 0.95rem;">🚀 Moto G05</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0;">0 — 80 boletos</div>
+            <div id="bar0" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 4px;">
+              <div style="width: 0%; height: 100%; background: #4CAF50; transition: width 0.5s;"></div>
+            </div>
+          </div>
+          <div style="text-align: right; font-weight: 600; color: #4CAF50; font-size: 0.9rem;">🔓 DESBLOQUEADO</div>
+        </div>
+      </div>
+
+      <!-- Tier 2: Moto G16 (80-150) -->
+      <div id="tier1" style="border: 2px solid #2196F3; border-radius: 12px; padding: 12px; background: rgba(33, 150, 243, 0.08); transition: all 0.3s;">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <img src="https://images.motorola.com/c_scale,f_auto,q_auto:best,w_200/8c5b73b4-99bc-4cdd-9b48-e0e77baab87c/moto-g-16-render-hero-4.jpg" alt="Moto G16" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0; background: #f5f5f5; border-radius: 8px; padding: 4px;">
+          <div style="flex: 1;">
+            <div style="font-weight: 600; font-size: 0.95rem;">📱 Moto G16</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0;">80 — 150 boletos</div>
+            <div id="bar1" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 4px;">
+              <div style="width: 0%; height: 100%; background: #2196F3; transition: width 0.5s;"></div>
+            </div>
+          </div>
+          <div id="status1" style="text-align: right; font-weight: 600; color: #999; font-size: 0.9rem;">🔒 Faltan 80</div>
+        </div>
+      </div>
+
+      <!-- Tier 3: Samsung A17 (150-250) -->
+      <div id="tier2" style="border: 2px solid #FF9800; border-radius: 12px; padding: 12px; background: rgba(255, 152, 0, 0.08); transition: all 0.3s;">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <img src="https://images.samsung.com/mx/smartphones/galaxy-a17/images/gallery/mo-GalaxyA17-Blue-Gloss-Front.jpg" alt="Samsung A17" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0; background: #f5f5f5; border-radius: 8px; padding: 4px;">
+          <div style="flex: 1;">
+            <div style="font-weight: 600; font-size: 0.95rem;">📱 Samsung A17</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0;">150 — 250 boletos</div>
+            <div id="bar2" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 4px;">
+              <div style="width: 0%; height: 100%; background: #FF9800; transition: width 0.5s;"></div>
+            </div>
+          </div>
+          <div id="status2" style="text-align: right; font-weight: 600; color: #999; font-size: 0.9rem;">🔒 Faltan 150</div>
+        </div>
+      </div>
+
+      <!-- Tier 4: Samsung A36 (250-400) -->
+      <div id="tier3" style="border: 2px solid #9C27B0; border-radius: 12px; padding: 12px; background: rgba(156, 39, 176, 0.08); transition: all 0.3s;">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <img src="https://images.samsung.com/mx/smartphones/galaxy-a36/images/gallery/mo-GalaxyA36-Gold-Gloss-Front.jpg" alt="Samsung A36" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0; background: #f5f5f5; border-radius: 8px; padding: 4px;">
+          <div style="flex: 1;">
+            <div style="font-weight: 600; font-size: 0.95rem;">📱 Samsung A36</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0;">250 — 400 boletos</div>
+            <div id="bar3" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 4px;">
+              <div style="width: 0%; height: 100%; background: #9C27B0; transition: width 0.5s;"></div>
+            </div>
+          </div>
+          <div id="status3" style="text-align: right; font-weight: 600; color: #999; font-size: 0.9rem;">🔒 Faltan 250</div>
+        </div>
+      </div>
+
+      <!-- Tier 5: Samsung A56 (400+) -->
+      <div id="tier4" style="border: 2px solid #E91E63; border-radius: 12px; padding: 12px; background: rgba(233, 30, 99, 0.08); transition: all 0.3s;">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <img src="https://images.samsung.com/mx/smartphones/galaxy-a56/images/gallery/mo-GalaxyA56-Blue-Gloss-Front.jpg" alt="Samsung A56" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0; background: #f5f5f5; border-radius: 8px; padding: 4px;">
+          <div style="flex: 1;">
+            <div style="font-weight: 600; font-size: 0.95rem;">👑 Samsung A56</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin: 4px 0;">400+ boletos</div>
+            <div id="bar4" style="width: 100%; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-top: 4px;">
+              <div style="width: 0%; height: 100%; background: #E91E63; transition: width 0.5s;"></div>
+            </div>
+          </div>
+          <div id="status4" style="text-align: right; font-weight: 600; color: #999; font-size: 0.9rem;">🔒 Faltan 400</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1545,6 +1620,59 @@ let chatBusy = false;
     }
   }, 3000);
 })();
+
+// ============================================================
+// ACTUALIZAR PREMIOS — Basado en participantes
+// ============================================================
+const TIERS = [
+  { id: 0, min: 0, max: 80, color: '#4CAF50' },
+  { id: 1, min: 80, max: 150, color: '#2196F3' },
+  { id: 2, min: 150, max: 250, color: '#FF9800' },
+  { id: 3, min: 250, max: 400, color: '#9C27B0' },
+  { id: 4, min: 400, max: Infinity, color: '#E91E63' }
+];
+
+function actualizarPremios() {
+  const countEl = document.getElementById('countParticipantes');
+  const count = parseInt(countEl.innerText) || 0;
+
+  TIERS.forEach((tier, idx) => {
+    const tierEl = document.getElementById('tier' + idx);
+    const barEl = tierEl.querySelector('div > div:nth-child(2) > div:nth-child(3) > div');
+    const statusEl = document.getElementById('status' + idx);
+
+    const progress = Math.max(0, Math.min(100, (count / tier.max) * 100));
+    barEl.style.width = progress + '%';
+
+    if (count >= tier.max && idx < TIERS.length - 1) {
+      // Desbloqueado
+      tierEl.style.opacity = '1';
+      if (idx === 0) {
+        statusEl.innerHTML = '🔓 DESBLOQUEADO';
+        statusEl.style.color = tier.color;
+      } else {
+        statusEl.innerHTML = '✅ DESBLOQUEADO';
+        statusEl.style.color = tier.color;
+      }
+    } else if (count >= tier.min && count < tier.max) {
+      // En progreso
+      tierEl.style.opacity = '1';
+      const falta = tier.max - count;
+      statusEl.innerHTML = '⏳ Faltan ' + falta;
+      statusEl.style.color = tier.color;
+    } else {
+      // No desbloqueado aún
+      tierEl.style.opacity = '0.6';
+      const falta = tier.min - count;
+      statusEl.innerHTML = '🔒 Faltan ' + falta;
+      statusEl.style.color = '#999';
+    }
+  });
+}
+
+// Actualizar cada 10 segundos
+setInterval(actualizarPremios, 10000);
+actualizarPremios();
 
 function toggleChat() {
   chatOpen = !chatOpen;
